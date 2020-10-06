@@ -1,0 +1,94 @@
+/*----Character Styles----*/
+
+/*h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+*/
+
+p {
+	font-size: 0.6875em;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+	color: #3B55E6;
+}
+/*----Buttons----*/
+
+button {
+	border-style: none;
+	border-radius: 50px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 0.6875em;
+	font-weight: 700;
+	height: 44px;
+	letter-spacing: 1.3px;
+	outline: none;
+	text-transform: uppercase;
+	width: 100%;
+}
+.primary-btn {
+	background-color: #3B55E6;
+	margin: 0 auto;
+}
+.primary-btn:hover {
+	background-color: #405CFB;
+}
+.dark-btn {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+/*----Divider----*/
+
+.divider {
+	height: 1px;
+	width: 100%;
+	background-color: #F0F2F7;
+}
+label {
+	font-size: 0.6875em;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+	margin-left: 14px;
+	letter-spacing: 1.3px;
+	color: #3B55E6;
+}
+input[type=text], [type=password] {
+	height: 44px;
+	background-color: #F0F2F7;
+	border-style: none;
+	border-radius: 44px;
+	border: 1px solid #E3E8F0;
+	width: 100%;
+	margin: 0 auto;
+	padding: 14px;
+	padding-left: 48px;
+	font-size: 0.8125em;
+	font-weight: 400;
+	background-position: 14px;
+	background-repeat: no-repeat;
+}
+input[type=text] {
+	background-image: url('../images/mail.svg');
+}
+[type=password] {
+	background-image: url('../images/lock.svg');
+}
+::placeholder {
+	color: #B9BED1;
+}
+input:hover {
+	border-style: none;
+	border: 1px solid #B9BED1;
+	background-color: #E6EAFF;
+}
+input:focus {
+	outline: none;
+	border-radius: 44px;
+	border: 1px solid #3B55E6;
+	background-color: #E6EAFF;
+}
