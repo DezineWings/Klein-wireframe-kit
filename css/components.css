@@ -30,12 +30,20 @@ button {
 	text-transform: uppercase;
 	width: 100%;
 }
-.primary-btn {
+.primary-btn, .secondary-btn {
 	background-color: #3B55E6;
 	margin: 0 auto;
 }
 .primary-btn:hover {
 	background-color: #405CFB;
+}
+
+.secondary-btn:hover {
+	background-color: #405CFB;
+}
+
+.secondary-btn{
+	margin-top: 20px;
 }
 .dark-btn {
 	background-color: #000000;
@@ -54,8 +62,10 @@ label {
 	text-align: left;
 	text-transform: uppercase;
 	margin-left: 14px;
+	margin-top: 40px;
 	letter-spacing: 1.3px;
 	color: #3B55E6;
+	
 }
 input[type=text], [type=password] {
 	height: 44px;
@@ -92,3 +102,4 @@ input:focus {
 	border: 1px solid #3B55E6;
 	background-color: #E6EAFF;
 }
+

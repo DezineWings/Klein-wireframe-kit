@@ -7,7 +7,9 @@
 body {
 	background-color: #3B55E6;
 	padding: 64px;
+	
 }
+
 .mainheading {
 	width: 100%;
 	color: #ffffff;
@@ -33,10 +35,12 @@ body {
 }
 .container {
 	flex-direction: column;
-	width: 19.2708333333%;
-	min-width: 328px;
+	min-width: 400px;
+	max-width: 400px;
 	border-radius: 6px;
 	background-color: #ffffff;
+	margin-bottom: 64px;
+
 }
 .containerheading {
 	width: 100%;
@@ -98,3 +102,8 @@ body {
 .containerform input[type=text] {
 	margin-bottom: 16px;
 }
+
+.mainheading > .divider{
+	background-color: #5574F2;
+}
+
