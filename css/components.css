@@ -43,11 +43,12 @@ button {
 }
 
 .secondary-btn{
-	margin-top: 20px;
+	margin-top: 24px;
 }
 .dark-btn {
 	background-color: #000000;
 	color: #FFFFFF;
+	margin-top: 8px;
 }
 /*----Divider----*/
 
@@ -102,4 +103,5 @@ input:focus {
 	border: 1px solid #3B55E6;
 	background-color: #E6EAFF;
 }
+
 
