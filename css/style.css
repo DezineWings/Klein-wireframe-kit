@@ -7,9 +7,7 @@
 body {
 	background-color: #3B55E6;
 	padding: 64px;
-	
 }
-
 .mainheading {
 	width: 100%;
 	color: #ffffff;
@@ -40,14 +38,7 @@ body {
 	border-radius: 6px;
 	background-color: #ffffff;
 	margin-bottom: 64px;
-	box-shadow:
-	0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-	0 6.7px 5.3px rgba(0, 0, 0, 0.034),
-	0 12.5px 10px rgba(0, 0, 0, 0.06),
-	0 22.3px 17.9px rgba(0, 0, 0, 0.034),
-	0 41.8px 33.4px rgba(0, 0, 0, 0.034),
-	0 100px 80px rgba(0, 0, 0, 0.12)
-
+	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.034), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.034), 0 41.8px 33.4px rgba(0, 0, 0, 0.034), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
 .containerheading {
 	width: 100%;
@@ -69,7 +60,6 @@ body {
 }
 .containerform {
 	padding: 10.8108108108%;
-	
 }
 .socialicons {
 	display: flex;
@@ -107,35 +97,28 @@ body {
 .containerform input {
 	margin-top: 6px;
 }
-.containerform input[type=text] {
-	margin-bottom: 16px;
-}
-
-.mainheading > .divider{
+.mainheading>.divider {
 	background-color: #5574F2;
 }
-
 .dark {
 	background-color: #3B55E6;
 }
-
-.containerform  h3, h4{
+.containerform h3, h4 {
 	color: #ffffff;
 	font-size: 22px;
 	font-weight: 300;
 	text-align: center;
 }
-
-.containerform h4{
+.containerform h4 {
 	font-weight: 800;
 	margin-bottom: 32px;
 }
-
-.envelope{
+.envelope {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 20px;
 }
-
-
-
+form>.divider {
+	margin-top: 12px;
+	margin-bottom: 24px;
+}

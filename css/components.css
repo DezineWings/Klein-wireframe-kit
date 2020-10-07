@@ -37,13 +37,11 @@ button {
 .primary-btn:hover {
 	background-color: #405CFB;
 }
-
 .secondary-btn:hover {
 	background-color: #405CFB;
 }
-
-.secondary-btn{
-	margin-top: 24px;
+.secondary-btn {
+	margin-top: 8px;
 }
 .dark-btn {
 	background-color: #000000;
@@ -57,6 +55,8 @@ button {
 	width: 100%;
 	background-color: #F0F2F7;
 }
+/*----Label----*/
+
 label {
 	font-size: 0.6875em;
 	font-weight: 700;
@@ -66,8 +66,9 @@ label {
 	margin-top: 40px;
 	letter-spacing: 1.3px;
 	color: #3B55E6;
-	
 }
+/*----Input----*/
+
 input[type=text], [type=password] {
 	height: 44px;
 	background-color: #F0F2F7;
@@ -82,6 +83,47 @@ input[type=text], [type=password] {
 	font-weight: 400;
 	background-position: 14px;
 	background-repeat: no-repeat;
+	margin-bottom: 16px;
+}
+.select {
+	width: 100%;
+	margin-top: 6px;
+	margin-bottom: 16px;
+}
+.select_country, .select_city {
+	height: 44px;
+	width: 100%;
+	padding: 14px;
+	color: #616263;
+	background-image: url('../images/down_arrow.svg');
+	background-repeat: no-repeat;
+	background-position: right 14px center;
+	background-color: #F0F2F7;
+	border-radius: 44px;
+	border: 1px solid #E3E8F0;
+	outline: none;
+	font-size: 0.8125em;
+	font-weight: 400;
+	-webkit-appearance: none;
+	/* for webkit browsers */
+	-moz-appearance: none;
+	/* for firefox */
+	appearance: none;
+	/* for modern browsers */
+}
+/* remove default caret for ie */
+
+.select_country::-ms-expand {
+	display: none;
+}
+.select_country:focus {
+	border: 1px solid #3B55E6;
+}
+.select_city::-ms-expand {
+	display: none;
+}
+.select_city:focus {
+	border: 1px solid #3B55E6;
 }
 input[type=text] {
 	background-image: url('../images/mail.svg');
@@ -103,5 +145,6 @@ input:focus {
 	border: 1px solid #3B55E6;
 	background-color: #E6EAFF;
 }
-
-
+.select>.select_city {
+	margin-bottom: 16px;
+}
