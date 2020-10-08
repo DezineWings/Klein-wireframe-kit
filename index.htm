@@ -9,14 +9,18 @@
 	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+	<!--
 	<div class="mainheading">
 		<h1>Klein Wireframe Kit</h1>
 		<h2>ver. 1.0.1</h2>
 		<div class="divider"></div>
 	</div>
+-->
 	<div class="allforms">
-		<!--==Sign In==-->
-		<div class="container">
+
+		<!------------Log In Form------------>
+
+		<div class="container login">
 			<div class="containerheading">
 				<div class="heading">
 					<p>Login</p>
@@ -29,7 +33,11 @@
 			<div class="divider"></div>
 			<div class="containerform">
 				<form>
-					<label>Your E-mail</label> <input placeholder="Enter your e-mail" type="text"> <label>Password</label> <input placeholder="Enter Password" type="password"> <button class="primary-btn">Log In</button>
+					<label>Your E-mail</label>
+						<input placeholder="Enter your e-mail" type="text">
+					<label>Password</label>
+						<input placeholder="Enter Password" type="password">
+					<button class="primary-btn">Log In</button>
 				</form>
 				<div class="social-login">
 					<div class="dash"></div>
@@ -57,37 +65,11 @@
 					</div>
 				</div>
 			</div>
-		</div><!--==Restore Password==-->
-		<div class="container">
-			<div class="containerheading">
-				<div class="heading">
-					<p>Resore Password</p>
-				</div>
-				<div class="close">
-					<svg height="9" viewbox="0 0 9 9" width="9" xmlns="http://www.w3.org/2000/svg">
-					<path d="M6.364,4.492,8.607,6.734A1.323,1.323,0,1,1,6.736,8.6L4.494,6.363,2.252,8.6A1.323,1.323,0,0,1,.382,6.734L2.624,4.492.382,2.25A1.323,1.323,0,1,1,2.252.38L4.494,2.623,6.736.38A1.323,1.323,0,0,1,8.607,2.25Z" fill="#3b55e6" fill-rule="evenodd" transform="translate(0.006 0.007)"></path></svg>
-				</div>
-			</div>
-			<div class="divider"></div>
-			<div class="containerform">
-				<form>
-					<label>Your E-mail</label> <input placeholder="Enter your e-mail" type="text"> <button class="secondary-btn">Restore my password</button>
-				</form>
-			</div>
-		</div><!--==Subscribe to our weekly newsletter!==-->
-		<div class="container dark">
-			<div class="containerform">
-				<form>
-					<div class="envelope">
-						<svg height="45.36" viewbox="0 0 42 45.36" width="42" xmlns="http://www.w3.org/2000/svg">
-						<path d="M25,3,4,21.48V45.01a3.35,3.35,0,0,0,3.366,3.35H42.634A3.36,3.36,0,0,0,46,45.01V21.48L25,3ZM19.96,36.6,8.2,46.68H41.8L30.04,36.6ZM25,5.184l18.48,16.3L28.36,34.92H21.64L6.52,21.48,25,5.184ZM43.791,46.218,30.88,34.949,44.32,23.16V45a1.677,1.677,0,0,1-.529,1.218Zm-37.582,0L19.12,34.949,5.68,23.16V45a1.677,1.677,0,0,0,.529,1.218Z" data-name="Icon Envelope open" fill="#fff" fill-rule="evenodd" id="Icon_Envelope_open" transform="translate(-4 -3)"></path></svg>
-					</div>
-					<h3>Subscribe to our</h3>
-					<h4>weekly newsletter!</h4><input placeholder="Enter your e-mail" type="text"> <button class="dark-btn">Subscribe</button>
-				</form>
-			</div>
-		</div><!--==Sign Up==-->
-		<div class="container">
+		</div>
+
+		<!------------Sign Up Form------------>
+		
+		<div class="container signup">
 			<div class="containerheading">
 				<div class="heading">
 					<p>Sign Up</p>
@@ -100,6 +82,15 @@
 			<div class="divider"></div>
 			<div class="containerform">
 				<form>
+					<div class="fullname">
+						<div class="firstname">
+							<label>First Name</label> <input placeholder="First Name" type="text">
+						</div>
+						<div class="lastname">
+							<label>Last Name</label> <input placeholder="Last Name" type="text">
+						</div>	
+					</div>
+
 					<label>Your E-mail</label> <input placeholder="Enter your e-mail" type="text"> <label>Password</label><input placeholder="Create your strong password" type="password"> <label>Confirm Password</label> <input placeholder="Repeat your password" type="password">
 					<div class="divider"></div><label>Country</label>
 					<div class="select">
@@ -152,10 +143,100 @@
 							</option>
 						</select>
 					</div>
-					<div class="divider"></div><button class="secondary-btn">Sign Up</button>
+					
+					<div class="divider"></div>
+
+					<div class="terms">
+						<input type="checkbox" id="terms" name="terms" value="terms" checked>
+						<label for="terms">Accept the <a href = "#">Terms</a> and <a href = "#"> Conditions </a></label>
+					</div>
+					<button class="primary-btn">Sign Up</button>
 				</form>
 			</div>
 		</div>
+
+		<!------------Address Settings Form------------>
+
+		<div class="container address-setting">
+			<div class="containerheading">
+				<div class="heading">
+					<p>Address Setting</p>
+				</div>
+				<div class="close">
+					<svg height="9" viewbox="0 0 9 9" width="9" xmlns="http://www.w3.org/2000/svg">
+					<path d="M6.364,4.492,8.607,6.734A1.323,1.323,0,1,1,6.736,8.6L4.494,6.363,2.252,8.6A1.323,1.323,0,0,1,.382,6.734L2.624,4.492.382,2.25A1.323,1.323,0,1,1,2.252.38L4.494,2.623,6.736.38A1.323,1.323,0,0,1,8.607,2.25Z" fill="#3b55e6" fill-rule="evenodd" transform="translate(0.006 0.007)"></path></svg>
+				</div>
+			</div>
+			<div class="divider"></div>
+			<div class="containerform">
+				<form>
+					<label>Country</label>
+					<div class="select">
+						<select class="select_country" name="nameValueSelect">
+							<option selected value="">
+								Select your country
+							</option>
+							<option>
+								Option 1
+							</option>
+							<option>
+								Option 2
+							</option>
+							<option>
+								Option 3
+							</option>
+							<option>
+								Option 4
+							</option>
+							<option>
+								Option 5
+							</option>
+							<option>
+								Option 6
+							</option>
+						</select>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<!------------Subscribe to our weekly newsletter!------------>
+		
+		<div class="container newsletter">
+			<div class="containerform">
+				<form>
+					<div class="envelope">
+						<svg height="45.36" viewbox="0 0 42 45.36" width="42" xmlns="http://www.w3.org/2000/svg">
+						<path d="M25,3,4,21.48V45.01a3.35,3.35,0,0,0,3.366,3.35H42.634A3.36,3.36,0,0,0,46,45.01V21.48L25,3ZM19.96,36.6,8.2,46.68H41.8L30.04,36.6ZM25,5.184l18.48,16.3L28.36,34.92H21.64L6.52,21.48,25,5.184ZM43.791,46.218,30.88,34.949,44.32,23.16V45a1.677,1.677,0,0,1-.529,1.218Zm-37.582,0L19.12,34.949,5.68,23.16V45a1.677,1.677,0,0,0,.529,1.218Z" data-name="Icon Envelope open" fill="#fff" fill-rule="evenodd" id="Icon_Envelope_open" transform="translate(-4 -3)"></path></svg>
+					</div>
+					<h3>Subscribe to our</h3>
+					<h4>weekly newsletter!</h4>
+					<input placeholder="Enter your e-mail" type="text">
+					<button class="dark-btn">Subscribe</button>
+				</form>
+			</div>
+		</div>
+		
+		<!------------Restore Password------------>
+		
+		<div class="container restore-password">
+			<div class="containerheading">
+				<div class="heading">
+					<p>Restore Password</p>
+				</div>
+				<div class="close">
+					<svg height="9" viewbox="0 0 9 9" width="9" xmlns="http://www.w3.org/2000/svg">
+					<path d="M6.364,4.492,8.607,6.734A1.323,1.323,0,1,1,6.736,8.6L4.494,6.363,2.252,8.6A1.323,1.323,0,0,1,.382,6.734L2.624,4.492.382,2.25A1.323,1.323,0,1,1,2.252.38L4.494,2.623,6.736.38A1.323,1.323,0,0,1,8.607,2.25Z" fill="#3b55e6" fill-rule="evenodd" transform="translate(0.006 0.007)"></path></svg>
+				</div>
+			</div>
+			<div class="divider"></div>
+			<div class="containerform">
+				<form>
+					<label>Your E-mail</label> <input placeholder="Enter your e-mail" type="text"> <button class="primary-btn">Restore my password</button>
+				</form>
+			</div>
+		</div>
+
 	</div>
 </body>
 </html>
