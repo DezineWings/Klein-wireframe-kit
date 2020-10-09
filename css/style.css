@@ -120,17 +120,34 @@ form>.divider {
 	text-transform: none;
 	margin-left: 8px;
 }
-.fullname, .firstname, .lastname {
+.fullname, .city-pin {
 	display: flex;
 	justify-content: space-between;
 }
-.firstname, .lastname {
+.firstname, .lastname, .city, .pincode {
+	display: flex;
+}
+.city-pin .select {
+	margin-bottom: 0;
+}
+.select_city {
+	height: auto;
+}
+.address-setting .primary-btn {
+	margin-top: 24px;
+}
+
+.firstname, .lastname, .city, .pincode {
 	display: flex;
 	flex-grow: 1;
 	max-width: 48%;
 	flex-direction: column;
 }
 .fullname input[type=text] {
+	background-image: none;
+	padding-left: 16px;
+}
+.address-setting input {
 	background-image: none;
 	padding-left: 16px;
 }
