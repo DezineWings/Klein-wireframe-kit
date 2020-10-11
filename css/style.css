@@ -7,15 +7,39 @@
 body {
 	background-color: #3B55E6;
 	padding: 64px;
-	display: flex;
+	/*display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center;*/
 }
-.allforms {
+.mainTopBar {
+	margin-bottom: 32px;
+}
+.mainTopBar h1, h3, h5, a {
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 36px;
+	text-align: left;
+}
+.mainTopBar h3 {
+	font-size: 24px;
+	font-weight: 500;
+}
+.mainTopBar h5, a {
+	font-size: 14px;
+	font-weight: 500;
+	margin: 8px 0;
+	text-decoration: none;
+	font-style: italic;
+}
+.mainTopBar a {
+	font-weight: 700;
+}
+/*.allforms {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-}
+}*/
+
 .containerheading, .close {
 	display: flex;
 	align-items: center;
@@ -136,7 +160,6 @@ form>.divider {
 .address-setting .primary-btn {
 	margin-top: 24px;
 }
-
 .firstname, .lastname, .city, .pincode {
 	display: flex;
 	flex-grow: 1;
@@ -153,6 +176,44 @@ form>.divider {
 }
 .login, .signup, .address-setting, .restore-password {
 	margin-right: 58px;
+}
+.newone {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid grey;
+	height: 44px;
+	background-color: #F0F2F7;
+	border-style: none;
+	border-radius: 44px;
+	border: 1px solid #E3E8F0;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 0.8125em;
+	font-weight: 500;
+	color: #3B55E6;
+	padding-left: 16px;
+}
+.newone:hover {
+	border-style: none;
+	border: 1px solid #B9BED1;
+	background-color: #E6EAFF;
+}
+.newone input {
+	flex-grow: 2;
+	border: none;
+	background-image: none;
+	background: none;
+	border-radius: 0;
+}
+.newone input:hover {
+	border-style: none;
+	border: none;
+	background: none;
+}
+.newone input:focus {
+	outline: none;
+	border-radius: 0;
+	border: none;
 }
 @media only screen and (max-width: 1901px) {
 	.newsletter {

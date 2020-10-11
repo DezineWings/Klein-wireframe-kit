@@ -22,7 +22,6 @@
 	width: 100%;
 	background-color: #F0F2F7;
 }
-
 /*----Character Styles----*/
 
 p, label {
@@ -35,7 +34,6 @@ p, label {
 label {
 	margin-left: 14px;
 }
-
 /*----Input----*/
 
 input[type=text], [type=password], [type=number] {
@@ -83,7 +81,6 @@ input:focus {
 	border: 1px solid #3B55E6;
 	background-color: #E6EAFF;
 }
-
 /*----Buttons----*/
 
 button {
@@ -111,6 +108,11 @@ button {
 }
 .dark-btn:hover {
 	background-color: #1A1A1A;
+}
+.secondary-btn {
+	background-color: #3B55E6;
+	color: white;
+	max-width: 94px;
 }
 .select {
 	width: 100%;
@@ -152,4 +154,38 @@ button {
 }
 a {
 	color: #707070;
+}
+.chipsarea {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 8px;
+}
+.inputchips {
+	display: flex;
+	align-items: center;
+	height: 44px;
+	width: fit-content;
+	min-width: 48px;
+	background-color: #F0F2F7;
+	border-radius: 50px;
+	border: 1px solid #E3E8F0;
+	padding: 16px;
+	margin: 0 16px 16px 0;
+	background-image: url(../images/chipsClose.svg);
+	background-repeat: no-repeat;
+	background-size: 12px;
+	background-position: right 14px center;
+	cursor: pointer;
+}
+.inputchips:hover {
+	border-style: none;
+	border: 1px solid #B9BED1;
+	background-color: #E6EAFF;
+}
+.inputchips p {
+	color: #707070;
+	font-weight: 500;
+	font-size: 13px;
+	text-transform: capitalize;
+	margin-right: 24px;
 }
