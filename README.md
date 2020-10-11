@@ -9,6 +9,7 @@ First of all I want to thanks [Mr. Bertold Lakner](https://www.behance.net/laber
 Currently I am learning HTML, CSS and JavaScript. Basically I am interested in Front-end development.
 Klein Wireframe Kit is my first project on GitHub as well as this is my first HTML, CSS project. This project include different types of forms, menu, headers, and articles.
 
+*To execute this project just open index.html file in the browser.*
 
 ### Authors
 
